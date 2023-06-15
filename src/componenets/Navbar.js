@@ -76,7 +76,7 @@ const Navbar = () => {
         className="flex-col justify-center hidden items-center lg:flex xs:absolute xs:left-8   "
       >
         <span
-          className={`bg-rose-900  dark:bg-white block translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${
+          className={`bg-rose-800  dark:bg-white block translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${
             open ? "rotate-45 translate-y-[10px]" : "-translate-y-0.5   "
           }`}
         ></span>
