@@ -1,9 +1,36 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Layout from "@/componenets/Layout";
+import Head from "next/head";
+import Image from "next/image";
+import profilePic from "../../public/images/profile/developer-pic-1.png";
+import rishi from "../../public/images/profile/me.jpg";
 
-const inter = Inter({ subsets: ['latin'] })
+import AnimatedText from "@/componenets/AnimatedText";
+import Link from "next/link";
+import { LinkArrow } from "@/componenets/Icon";
+/* import { Footer } from "@/componenets/Footer"; */
+import HireMe from "@/componenets/HireMe";
+import LightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import Transation from "@/componenets/Transation";
+import { useRef } from "react";
+import { useRouter } from "next/router";
+
+const CustomLink = ({ href, title, className = "" }) => {
+  const router = useRouter();
+  return (
+    <Link href={href} className={`${className} relative group `}>
+      {title}
+
+      <span
+        className={`h-[3px] inline-block  bg-black absolute left-0 -bottom-0.5
+        group-hover:w-full transition-[width] ease duration-450 ${
+          router.asPath === href ? "w-full" : "w-0"
+        } `}
+      >
+        &nbsp;
+      </span>
+    </Link>
+  );
+};
 
 export default function Home() {
   return (
@@ -14,110 +41,61 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
+      <Transation />
+      <main className="flex items-center w-full min-h-screen lg:flex-col">
+        <Layout className="pt-0 md:pt-16 sm:pt-8  ">
+          <div className="flex items-center justify-between w-full lg:flex-col">
+            <div className=" w-[30%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
+                src={rishi}
+                alt="Rishikesh ghosh"
+                className="w-full h-auto rounded-2xl md:inline-block md:w-full xs:mb-5"
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw 50vw"
               />
-            </a>
+            </div>
+            <div className="w-1/2  flex flex-col items-center self-center lg:w-full lg:text-center   ">
+              <AnimatedText
+                text="Turning Vision Into Reality With Code And Design."
+                className="!text-6xl sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center "
+              />
+              <p className="my-10 xs:my-3 font-medium md:text-sm sm:text-xs  xs:w-[190%] ">
+                As a skilled software developer, I am dedicated to turning ideas
+                into innovative web applications. Explore my latest projects and
+                articles, showcasing my expertise in React.js and web
+                development.
+              </p>
+              <div className="flex items-center self-start mt-2 lg:self-center  ml-[285px]">
+                <Link
+                  href="/resume.pdf"
+                  target={"_blank"}
+                  className="flex items-center bg-black text-white p-2.5 px-6 rounded-lg text-lg
+                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base xs:absolute xs:left-[75px]
+                  xs:mt-12 mr-5"
+                  download={true}
+                >
+                  Resume <LinkArrow className="w-6 ml-1" />
+                </Link>
+                <CustomLink
+                  href="/email"
+                  title="Contact"
+                  className="ml-4 text-lg font-medium capitalize text-black underline md:text-base xs:absolute xs:right-[75px]
+                   xs:mt-12"
+                />
+              </div>
+            </div>
           </div>
-        </div>
+        </Layout>
 
-        <div className={styles.center}>
+        <HireMe />
+        <div className="absolute right-8 bottom-8 inline-block w-24 mb-16 mr-20">
           <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
+            src={LightBulb}
+            alt="Rishikesh"
+            className="w-full h-auto md:hidden"
           />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
         </div>
       </main>
     </>
-  )
+  );
 }
