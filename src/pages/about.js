@@ -93,7 +93,6 @@ const about = () => (
           <div
             className="col-span-2 mt-20 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row
           xl:items-center xs:order-3 xs:col-span-10"
-            /*  xs:col-span-10 */
           >
             <div className="flex flex-col items-end justify-center xl:items-center xs:order-2">
               <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl ">

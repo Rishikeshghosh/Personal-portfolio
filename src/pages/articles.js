@@ -27,7 +27,7 @@ const FramerMotion = motion(Image);
 const MovingImage = ({ title, img, link }) => {
   return (
     <Link href={link} target="_blank">
-      <Image src={img} className="  "></Image>
+      <Image src={img} alt="rishi" className="  "></Image>
     </Link>
   );
 };
@@ -41,7 +41,7 @@ const Article = ({ img, title, date, link }) => {
       className="realitive w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-white text-black first:mt-0 border border-solid border-black border-r-4 border-b-4
       sm:flex-col   "
     >
-      <MovingImage img={img} link={link} />
+      <MovingImage img={img} alt="rishi" link={link} />
     </motion.li>
   );
 };
@@ -101,6 +101,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
                 time="9 min read"
                 link="/"
                 img={article1}
+                alt="rishikwaj"
               />
             </li>
             <li>
@@ -111,6 +112,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
                 time="9 min read"
                 link="/"
                 img={article2}
+                alt="rishikwaj"
               />
             </li>
           </ul>
@@ -124,6 +126,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
             <Article
               title="Even if we don't have the power to choose where we come from, we can still choose where we go from there."
               img={tweet}
+              alt="rishikwaj"
               date="— Stephen Chbosky"
               link="/"
             />
@@ -136,11 +139,13 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
             <Article
               title="Don't cry because it's over. Smile because it happened."
               img={tweet2}
+              alt="rishikwaj"
               date="— Dr. Seuss"
               link="/"
             />
             <Article
               title="Anyone who has never made a mistake has never tried anything new."
+              alt="rishikwaj"
               img={tweet3}
               date="— Albert Einstein"
               link="/"
@@ -148,30 +153,35 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
             <Article
               title="All that is gold does not glitter, not all those who wander are lost; the old that is strong. Does not wither, deep roots are not reached by the frost."
               img={tweet4}
+              alt="rishikwaj"
               date="— ​J.R.R. Tolkien"
               link="/"
             />
             <Article
               title="Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great."
               img={tweet5}
+              alt="rishikwaj"
               date="— Mark Twain"
               link="/"
             />
             <Article
               title="No matter what the day brings and no matter how hard life hits you, if you can breathe, smile and keep moving on! Once you have life, know that God is alive!"
               img={tweet6}
+              alt="rishikwaj"
               date="― Ernest Agyemang Yeboah"
               link="/"
             />
             <Article
               title="No matter what the day brings and no matter how hard life hits you, if you can breathe, smile and keep moving on! Once you have life, know that God is alive!"
               img={tweet7}
+              alt="rishikwaj"
               date="― Ernest Agyemang Yeboah"
               link="/"
             />
             <Article
               title="No matter what the day brings and no matter how hard life hits you, if you can breathe, smile and keep moving on! Once you have life, know that God is alive!"
               img={tweet8}
+              alt="rishikwaj"
               date="― Ernest Agyemang Yeboah"
               link="/"
             />

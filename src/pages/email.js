@@ -6,14 +6,14 @@ import AnimatedText from "@/componenets/AnimatedText";
 import Transation from "@/componenets/Transation";
 import Link from "next/link";
 
-const email = () => {
+const Email = () => {
   const [alert, setAlert] = useState(false);
   const [alert1, setAlert2] = useState(false);
-
-  const [email, setEmail] = useState("");
+  const [userEmail, setUserEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [number, setNumber] = useState("");
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -36,9 +36,9 @@ const email = () => {
       );
   };
   const handleSend = () => {
-    if (email.length && name.length && message.length >= 6) {
+    if (userEmail.length && name.length && message.length >= 6) {
       setAlert(true);
-      setEmail("");
+      setUserEmail("");
       setName("");
       setNumber("");
       setMessage("");
@@ -144,9 +144,9 @@ const email = () => {
                 Email
               </label>
               <input
-                value={email}
+                value={userEmail}
                 onChange={(event) => {
-                  setEmail(event.target.value);
+                  setUserEmail(event.target.value);
                 }}
                 type="email"
                 id="email"
@@ -190,4 +190,4 @@ const email = () => {
   );
 };
 
-export default email;
+export default Email;
