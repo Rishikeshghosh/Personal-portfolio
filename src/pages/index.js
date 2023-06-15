@@ -65,12 +65,12 @@ export default function Home() {
                 articles, showcasing my expertise in React.js and web
                 development.
               </p>
-              <div className="flex items-center self-start mt-2 lg:self-center  ml-[285px]">
+              <div className="flex xs:relative items-center self-start mt-2 lg:self-center  ml-[285px]">
                 <Link
                   href="/resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-black text-white p-2.5 px-6 rounded-lg text-lg
-                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base xs:absolute xs:left-[75px]
+                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base xs:absolute xs:right-[105px]
                   xs:mt-12 mr-5"
                   download={true}
                 >
@@ -79,7 +79,7 @@ export default function Home() {
                 <CustomLink
                   href="/email"
                   title="Contact"
-                  className="ml-4 text-lg font-medium capitalize text-black underline md:text-base xs:absolute xs:right-[75px]
+                  className="ml-4 text-lg font-medium capitalize text-black underline md:text-base xs:absolute xs:right-[45px]
                    xs:mt-12"
                 />
               </div>
