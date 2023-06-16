@@ -37,7 +37,7 @@ const AnimatedText = ({ text, className = "" }) => {
     sm:py-0 xs:w-[130%]  xs:pr-9 "
     >
       <motion.h1
-        className={` inline-block w-full text-black  font-bold capitalize text-8xl  xs:flex xs:col-span-11 xs:flex-wrap
+        className={` inline-block w-full text-black  font-bold capitalize text-8xl  xs:ml-[-20px] xs:flex-wrap
         ${className}`}
         variants={qoute}
         initial="initial"

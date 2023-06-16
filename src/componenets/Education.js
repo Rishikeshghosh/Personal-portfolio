@@ -35,7 +35,7 @@ const Education = () => {
   });
   return (
     <div className="xs:mt-[190px] my-64 ">
-      <h2 className=" font-bold text-8xl mb-32 w-full text-center xs:text-4xl xs:mb-16 xs:ml-[55px]">
+      <h2 className=" font-bold text-8xl mb-32 w-full text-center xs:text-4xl xs:mb-16 xs:ml-[49px]">
         Education
       </h2>
 
@@ -48,7 +48,10 @@ const Education = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-black origin-top
           md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full  flex flex-col items-start justify-between ml-4 xs:m-2 xs:ml-3  ">
+        <ul
+          className=" 
+        w-full flex flex-col items-start justify-between ml-4 xs:ml-4   "
+        >
           <Deatils
             type="Bachelor Of Commerce (Honours) "
             time="2021-2023"

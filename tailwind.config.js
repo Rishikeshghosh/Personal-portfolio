@@ -32,8 +32,10 @@ module.exports = {
         // => @media (max-width: 639px) { ... }
 
         xs: { max: "500px" },
+        xm: { max: "495px" },
+
         // => @media (max-width: 479px) { ... }
-        xxs: { max: "350px" },
+        xxs: { max: "300px" },
       },
       color: {
         dark: "#1b1b1b",
