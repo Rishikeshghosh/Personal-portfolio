@@ -41,8 +41,8 @@ const about = () => (
       <meta name="discription" content="any-discription"></meta>
     </Head>
     <Transation />
-    <main className="flex xss:full w-full flex-col items-center justify-center xs:ml-[-17vw] sm:ml-[-5vw] ">
-      <Layout className=" xs:pl[20px] xs:w-[100%] pt-16 xs:pt-16 ">
+    <main className="flex   xss:full w-full flex-col items-center justify-center xs:ml-[-17vw] sm:ml-[-5vw] ">
+      <Layout className=" 2xl:mt-[70px] xs:pl[20px] xs:w-[100%] pt-16 xs:pt-16 ">
         <AnimatedText
           text="Passion Fuels Purpose! "
           className="mb-16 xs:ml-[1px] lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 xs:flex xs:items-center xs:justify-center xs:pl-[120px] xs:!leading-snug xs:!mb-3  "

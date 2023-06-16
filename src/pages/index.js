@@ -40,10 +40,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Transation />
-      <main className="flex items-center w-full lg:flex-col">
+      <main className="flex items-center   w-full lg:flex-col">
         <Layout className="pt-0 md:pt-16 sm:pt-8 ">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="xxs:w-[260%]  2xl:w-[35%] xxs:h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
+            <div className="xxs:w-[260%] xs:mt-[40px] 2xl:w-[35%] xxs:h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
               <Image
                 src={rishi}
                 alt="Rishikesh ghosh"
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className=" relative right-[90px] top-[130px]  w-[9%] ">
+        <div className=" relative right-[90px] top-[105px]  w-[9%] ">
           <Image src={LightBulb} className="w-full md:hidden" />
         </div>
       </main>

@@ -82,11 +82,11 @@ const articles = () => {
         <meta name="discription" content="any-discription"></meta>
       </Head>
       <Transation />
-      <main className=" xs:ml-[-60px]  w-full mb-16  flex flex-col items-center justify-center ">
-        <Layout className="  pt-16 xs:pt-16">
+      <main className="  xs:ml-[-60px]  w-full mb-16  flex flex-col items-center justify-center ">
+        <Layout className=" 2xl:mt-13  xxs:pt-16 xs:pt-16">
           <AnimatedText
             text="Everything Imposible Possible! "
-            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug
+            className="mb-16 xs:mb-5 xs:mt-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug
            xs:ml-[120px] xs:!break-words [&>*:nth-child(2)]:line-through"
           />
           <ul
