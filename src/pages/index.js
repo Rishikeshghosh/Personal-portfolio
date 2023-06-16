@@ -40,8 +40,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Transation />
-      <main className="flex   items-center w-full lg:flex-col">
-        <Layout className="pt-0 md:pt-16 sm:pt-8  ">
+      <main className="flex items-center w-full lg:flex-col">
+        <Layout className="pt-0 md:pt-16 sm:pt-8 ">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="xxs:w-[260%]  2xl:w-[35%] xxs:h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
               <Image
@@ -64,7 +64,8 @@ export default function Home() {
                 development.
               </p>
               <div
-                className="flex xs:flex xs:items-center xs:justify-center items-center justify-center  mt-2 lg:self-center  
+                className="flex xs:flex xs:items-center xs:justify-center items-center justify-center  mt-[-20px] lg:self-center  
+                xs:mb-[-45px]
               "
               >
                 <Link
@@ -80,7 +81,7 @@ export default function Home() {
                 </Link>
                 <CustomLink
                   href="/email"
-                  title="Contact"
+                  title="Contact "
                   className="ml-4 xs:mb-4 text-lg font-medium capitalize text-black underline md:text-base
                  
                   xxs:text-sm

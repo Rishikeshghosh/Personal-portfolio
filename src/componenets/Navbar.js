@@ -70,10 +70,10 @@ const Navbar = () => {
    */
 
   return (
-    <header className="w-full px-32 xs:ml-[-6px] py-8 font-bold flex item-center justify-between relative z-10 lg:px-16 md:px-12 sm:px-8 ">
+    <header className="w-full px-32 xs:ml-[-10px] py-8 font-bold flex item-center justify-between relative z-10 lg:px-16 md:px-12 sm:px-8 ">
       <button
         onClick={handleClick}
-        className="flex-col justify-center hidden items-center lg:flex xs:absolute xs:left-8   "
+        className="flex-col justify-center  items-center lg:flex xs:absolute xs:left-9   "
       >
         <span
           className={`bg-rose-800  dark:bg-white block translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${
