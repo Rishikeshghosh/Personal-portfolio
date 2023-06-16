@@ -41,7 +41,7 @@ const about = () => (
       <meta name="discription" content="any-discription"></meta>
     </Head>
     <Transation />
-    <main className="flex w-full flex-col items-center justify-center xs:ml-[-62px] ">
+    <main className="flex w-full flex-col items-center justify-center xs:ml-[-17vw] sm:ml-[-5vw] ">
       <Layout className=" xs:w-[100%] pt-16 xs:pt-16 ">
         <AnimatedText
           text="Passion Fuels Purpose! "
@@ -49,8 +49,8 @@ const about = () => (
         />
 
         <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
-          <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:col-span-8 xs:order-3 xs:col-span-10 ">
-            <h2 className="mb-4 text-lg font-bold uppercase text-black/75 xs:relative  ">
+          <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:col-span-8 xs:order-3 xs:col-span-10 xxs:col-span-8">
+            <h2 className="mb-4 text-lg font-bold uppercase text-black/75   ">
               About Me
             </h2>
             <p className="font-medium ">
@@ -77,8 +77,8 @@ const about = () => (
           </div>
 
           <div
-            className="col-span-3 relative w-full h-auto rounded-[1rem] border-2 border-solid border-black bg-white p-12 xs:p-7
-          xl:col-span-4 md:col-span-8 xs:order-1 xs:col-span-10 xs:ml-[-2px] xs:mb-12 "
+            className="col-span-3 relative w-full h-auto rounded-[1rem] border-2 border-solid border-black bg-white p-10 xs:p-7
+          xl:col-span-4 md:col-span-8 xs:order-1 xs:col-span-10 xs:ml-[-2px] xs:mb-12 xxs:col-span-8"
           >
             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-black" />
             <Image
@@ -86,25 +86,25 @@ const about = () => (
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw 33vw"
               src={riptu}
               alt="Rishikesh"
-              className="w-full h-auto rounded-2xl "
+              className="w-full xs:h-auto h-[100%]  rounded-2xl "
             />
           </div>
 
           <div
-            className="col-span-2 mt-20 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row
-          xl:items-center xs:order-3 xs:col-span-10"
+            className="col-span-2 my-8 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row
+          xl:items-center xs:order-3 xs:col-span-10 xxs:col-span-8"
           >
-            <div className="flex flex-col items-end justify-center xl:items-center xs:order-2">
-              <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl ">
+            <div className="flex flex-col   items-end justify-center xl:items-center xs:order-2">
+              <span className="inline-block   text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl xxs:text-3xl  ">
                 <AnimatedNumber value={16} />+
               </span>
-              <h2 className="text-xl font-medium capitalize text-black/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">
+              <h2 className="text-xl   font-medium capitalize text-black/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">
                 Deployed Projects
               </h2>
             </div>
 
-            <div className="flex flex-col items-end justify-center xl:items-center">
-              <span className="inline-block text-7xl font-bold  md:text-6xl sm:text-5xl xs:text-4xl">
+            <div className="flex flex-col items-end justify-center xl:items-center  ">
+              <span className="inline-block    text-7xl font-bold  md:text-6xl sm:text-5xl xs:text-4xl xxs:text-3xl">
                 <AnimatedNumber value={30} />+
               </span>
               <h2 className="text-xl font-medium capitalize text-black/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">
@@ -112,11 +112,11 @@ const about = () => (
               </h2>
             </div>
 
-            <div className="flex flex-col items-end justify-center xl:items-center">
-              <span className="inline-block text-7xl font-bold  md:text-6xl sm:text-5xl xs:text-4xl">
+            <div className="flex flex-col  items-end justify-center xl:items-center">
+              <span className="inline-block   text-7xl font-bold  md:text-6xl sm:text-5xl xs:text-4xl xxs:text-3xl">
                 <AnimatedNumber value={20} />+
               </span>
-              <h2 className="text-xl font-medium capitalize text-black/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
+              <h2 className="text-xl  font-medium capitalize text-black/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                 Months of experience
               </h2>
             </div>

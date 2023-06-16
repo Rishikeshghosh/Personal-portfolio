@@ -42,10 +42,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Transation />
-      <main className="flex items-center w-full min-h-screen lg:flex-col">
+      <main className="flex  items-center w-full min-h-screen lg:flex-col">
         <Layout className="pt-0 md:pt-16 sm:pt-8  ">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className=" w-[30%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
+            <div className="   w-[35%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
               <Image
                 src={rishi}
                 alt="Rishikesh ghosh"
@@ -54,24 +54,28 @@ export default function Home() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw 50vw"
               />
             </div>
-            <div className="w-1/2  flex flex-col items-center self-center lg:w-full lg:text-center   ">
+            <div className="  w-[60%] xxs:w-[150%] flex flex-col items-center justify-center  lg:w-full lg:text-center   ">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
-                className="!text-6xl sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center "
+                className="!text-6xl xxs:!text-lg sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center "
               />
-              <p className="my-10 xs:my-3 font-medium md:text-sm sm:text-xs  xs:w-[190%] ">
+              <p className="my-10 xxs:px-12 xxs:w-[170%]  xs:my-3 font-medium md:text-sm sm:text-xs   xs:w-[190%]  ">
                 As a skilled software developer, I am dedicated to turning ideas
                 into innovative web applications. Explore my latest projects and
                 articles, showcasing my expertise in React.js and web
                 development.
               </p>
-              <div className="flex items-center self-start mt-2 lg:self-center  ml-[285px]">
+              <div
+                className="flex items-center justify-center  mt-2 lg:self-center  
+              "
+              >
                 <Link
                   href="/resume.pdf"
                   target={"_blank"}
-                  className="flex items-center bg-black text-white p-2.5 px-6 rounded-lg text-lg
+                  className="flex items-center bg-black text-white p-2.5 px-6 xxs:px-1.5 xxs:py-1.5 rounded-lg text-lg
                   font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base xs:absolute xs:left-[76px]
-                  xs:mt-12 mr-5"
+                  xxs:left-[60px]
+                  xs:mt-12 mr-5 "
                   download={true}
                 >
                   Resume <LinkArrow className="w-6 ml-1" />
@@ -80,20 +84,16 @@ export default function Home() {
                   href="/email"
                   title="Contact"
                   className="ml-4 text-lg font-medium capitalize text-black underline md:text-base xs:absolute xs:right-[75px]
+                  xxs:right-[60px]
                    xs:mt-12"
                 />
               </div>
             </div>
           </div>
         </Layout>
-
         <HireMe />
-        <div className="absolute right-8 bottom-8 inline-block w-24 mb-16 mr-20">
-          <Image
-            src={LightBulb}
-            alt="Rishikesh"
-            className="w-full h-auto md:hidden"
-          />
+        <div className=" relative right-[90px] top-[130px]  w-[9%] ">
+          <Image src={LightBulb} className="w-full md:hidden" />
         </div>
       </main>
     </>

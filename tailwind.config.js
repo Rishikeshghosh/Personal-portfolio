@@ -31,8 +31,9 @@ module.exports = {
         sm: { max: "639px" },
         // => @media (max-width: 639px) { ... }
 
-        xs: { max: "479px" },
+        xs: { max: "500px" },
         // => @media (max-width: 479px) { ... }
+        xxs: { max: "350px" },
       },
       color: {
         dark: "#1b1b1b",
