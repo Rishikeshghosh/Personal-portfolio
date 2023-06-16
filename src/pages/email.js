@@ -58,7 +58,7 @@ const Email = () => {
       {alert ? (
         <div
           id="alert-border-3"
-          className="flex xs:p-5  p-7 mb-5 mt-6 text-green-800 border-t-4 border-green-300 bg-green-50 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
+          className="flex  xs:p-5  p-7 mb-5 text-green-800 border-t-4 border-green-300 bg-green-50 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
           role="alert"
         >
           <div className="ml-[38vw] xs:text-lg text-2xl xs:ml-[7vw]   font-medium">
@@ -86,9 +86,12 @@ const Email = () => {
         </div>
       ) : null}
       <Transation />
-      <section className="bg-white dark:bg-gray-900">
-        <div className="py-2 px-60 lg:py-16 xs:p-4 mx-auto max-w-screen-md mb-7 mt-11">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-gray-900 mb-32 xs:mb-4 xxs:mb-4">
+        <div className="py-2    px-60 lg:py-16 xs:p-4 mx-auto max-w-screen-md mb-7 mt-1">
+          <div className="w-[100%] h-[100%] py-[65px] xs:p-[40px] xxs:p-[40px] text-white">
+            oihiohh
+          </div>
+          <h2 className="mb-4  text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Me
           </h2>
 
@@ -179,7 +182,7 @@ const Email = () => {
               <input
                 onClick={handleSend}
                 type="submit"
-                className=" xs:py-3 xs:px-5 xs:text-sm ml-[560px] xs:ml-[88px] py-5 px-20  font-bold text-2xl text-center text-white rounded-lg bg-black sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+                className=" xs:py-3 xs:px-5 xs:text-sm ml-[340px]  xs:ml-[88px] py-3 px-3 font-bold text-1xl text-center text-white rounded-lg bg-black sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
                 value="Send Message"
               />
             </div>

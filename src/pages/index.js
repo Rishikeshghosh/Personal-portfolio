@@ -40,51 +40,49 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Transation />
-      <main className="flex items-center   w-full lg:flex-col">
-        <Layout className="pt-0 md:pt-16 sm:pt-8 ">
+      <main className="flex  items-center w-full min-h-screen lg:flex-col">
+        <Layout className="pt-0 md:pt-16 sm:pt-8  ">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="xxs:w-[260%] xs:mt-[40px] 2xl:w-[35%] xxs:h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
+            <div className=" xs:mt-12  w-[35%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
               <Image
                 src={rishi}
                 alt="Rishikesh ghosh"
-                className="xxs:w-full 2xl:w-full 2xl:h-auto xs:w-full rounded-2xl md:inline-block md:w-full xs:mb-5"
+                className="w-full h-auto rounded-2xl md:inline-block md:w-full xs:mb-5"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw 50vw"
               />
             </div>
-            <div className="xs:w-[100%]  w-[60%] xxs:w-[150%] 2xl:flex 2xl:flex-col 2xl:items-center 2xl:justify-center lg:w-full lg:text-center   ">
+            <div className="  w-[60%] xxs:w-[150%] flex flex-col items-center justify-center  lg:w-full lg:text-center   ">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
-                className=" xs:flex xxs:!text-sm 2xl:!text-6xl  sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug  xs:items-center xs:justify-center"
+                className="!text-6xl xxs:!text-lg sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center "
               />
-              <p className="2xl:my-10  px-1 xxs:w-[190%]  xs:my-3 2xl:font-medium md:text-sm sm:text-xs xs:px-3   xs:w-[190%]  ">
+              <p className="my-10 xxs:px-12 xxs:w-[170%]  xs:my-3 font-medium md:text-sm sm:text-xs   xs:w-[190%]  ">
                 As a skilled software developer, I am dedicated to turning ideas
                 into innovative web applications. Explore my latest projects and
                 articles, showcasing my expertise in React.js and web
                 development.
               </p>
               <div
-                className="flex xs:flex xs:items-center xs:justify-center items-center justify-center  mt-[-20px] lg:self-center  
-                xs:mb-[-45px]
+                className="flex items-center justify-center  mt-2 lg:self-center  
               "
               >
                 <Link
                   href="/resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-black text-white p-2.5 px-6 xxs:px-1.5 xxs:py-1.5 rounded-lg text-lg
-                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base 
-                  xxs:text-sm
-                  xs:mt-8  "
+                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base xs:absolute xs:left-[76px]
+                  xxs:left-[60px]
+                  xs:mt-12 mr-5 xxs:text-blue-700"
                   download={true}
                 >
-                  Resume <LinkArrow className="2xl:w-6 2xl:ml-1" />
+                  Resume <LinkArrow className="w-6 ml-1" />
                 </Link>
                 <CustomLink
                   href="/email"
-                  title="Contact "
-                  className="ml-4 xs:mb-4 text-lg font-medium capitalize text-black underline md:text-base
-                 
-                  xxs:text-sm
+                  title="Contact"
+                  className="ml-4 text-lg font-medium capitalize text-black underline md:text-base xs:absolute xs:right-[75px]
+                  xxs:right-[60px]
                    xs:mt-12"
                 />
               </div>
@@ -92,7 +90,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className=" relative right-[90px] top-[105px]  w-[9%] ">
+        <div className=" relative right-[90px] top-[130px]  w-[9%] ">
           <Image src={LightBulb} className="w-full md:hidden" />
         </div>
       </main>
