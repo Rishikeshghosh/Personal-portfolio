@@ -24,7 +24,7 @@ const Skills = () => {
         Skills
       </h2>
       <div
-        className="w-full h-screen relative flex items-center justify-center bg-circularLight black:bg-circularDark
+        className="w-full b h-screen relative flex items-center justify-center bg-circularLight black:bg-circularDark
         lg:h-[80vh] sm:h-[60vh]  xs:w-[80vw]  
          lg:bg-circularLighting lg:black:bg-circularDarkLg
          md:bg-circularLightMd md:black:bg-circularDarkMd

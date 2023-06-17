@@ -38,7 +38,7 @@ const Article = ({ img, title, date, link }) => {
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
-      className="realitive w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-white text-black first:mt-0 border border-solid border-black border-r-4 border-b-4
+      className="realitive 2xl:bg-white xs:bg-white xxs:bg-white w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between text-black first:mt-0 border border-solid border-black border-r-4 border-b-4
       sm:flex-col   "
     >
       <MovingImage img={img} alt="rishi" link={link} />
@@ -48,7 +48,7 @@ const Article = ({ img, title, date, link }) => {
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
-    <div className=" relative col-span-1 w-full p-4 bg-white border brder-solid border-black rounded-2xl">
+    <div className=" relative col-span-1 w-full p-4 2xl:bg-slate-50 xs:bg-white xxs:bg-white border brder-solid border-black rounded-2xl">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl" />
 
       <Link
@@ -82,8 +82,8 @@ const articles = () => {
         <meta name="discription" content="any-discription"></meta>
       </Head>
       <Transation />
-      <main className="  xs:ml-[-60px]  w-full mb-16 xs:mb-10  flex flex-col items-center justify-center ">
-        <Layout className="  xxs:pt-0 xs:pt-0">
+      <main className="  xs:ml-[-60px] 2xl:bg-slate-50  xs:bg-white  xxs:bg-white w-full mb-16 xs:mb-10  flex flex-col items-center justify-center ">
+        <Layout className=" 2xl:bg-slate-50  xs:bg-white  xxs:bg-white xxs:pt-0 xs:pt-0">
           <AnimatedText
             text="Everything Imposible Possible! "
             className="mb-16 2xl:mt-[-90px] xs:mb-5 xs:mt-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug
@@ -122,7 +122,7 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
           >
             Best Qoutes
           </h2>
-          <ul className="xs:w-[172%]">
+          <ul className="xs:w-[172%] ">
             <Article
               title="Even if we don't have the power to choose where we come from, we can still choose where we go from there."
               img={tweet}

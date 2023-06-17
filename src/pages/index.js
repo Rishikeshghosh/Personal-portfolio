@@ -40,7 +40,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Transation />
-      <main className="flex  items-center w-full min-h-screen lg:flex-col">
+      <main className="flex 2xl:bg-slate-50 xs:bg-white xxs:bg-white items-center w-full min-h-screen lg:flex-col">
         <Layout className="pt-0 md:pt-16 sm:pt-8  ">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className=" xs:mt-[-2rem] xxs:mt-[-2rem]  w-[35%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">

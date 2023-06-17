@@ -41,7 +41,7 @@ const about = () => (
       <meta name="discription" content="any-discription"></meta>
     </Head>
     <Transation />
-    <main className="flex   xss:full w-full flex-col items-center justify-center xs:ml-[-17vw] sm:ml-[-5vw] ">
+    <main className="flex 2xl:bg-slate-50 2xl:bg-slate-5 xs:bg-white xxs:bg-white   xss:full w-full flex-col items-center justify-center xs:ml-[-17vw] sm:ml-[-5vw] ">
       <Layout className="  2xl:mt-[-20px] xs:pl[20px] xs:w-[100%] pt-16 xxs:pt-0 xs:pt-0 ">
         <AnimatedText
           text="Passion Fuels Purpose! "
@@ -77,8 +77,8 @@ const about = () => (
           </div>
 
           <div
-            className="col-span-3 relative w-full h-auto rounded-[1rem] border-2 border-solid border-black bg-white p-10 xs:p-7
-          xl:col-span-4 md:col-span-8 xs:order-1  xs:col-span-10 xs:ml-[-2px] xs:mb-12   xxs:col-span-8 "
+            className="col-span-3 relative w-full h-auto rounded-[1rem] border-2 border-solid border-black xxs:bg-white  p-10 xs:p-7
+          xl:col-span-4 md:col-span-8 xs:order-1  xs:bg-white 2xl:bg-slate-50 xs:col-span-10 xs:ml-[-2px] xs:mb-12   xxs:col-span-8 "
           >
             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-black" />
             <Image

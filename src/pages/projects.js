@@ -19,15 +19,15 @@ const FramerMotion = motion(Image);
 const Project = ({ title, type, img, link, github }) => {
   return (
     <article
-      className="w-full flex flex-col items-center justify-center rounded-2xl border boder-soloid border-black bg-white p-6 relative
+      className="w-full 2xl:bg-slate-50 xxs:bg-white xs:bg-white flex flex-col items-center justify-center rounded-2xl border boder-soloid border-black p-6 relative
     xs:p-4"
     >
       <div
-        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl
+        className="absolute  top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl
       md:-right-2 md-w-[101%] xs:w-[102%] xs:rounded-[1.5rem] "
       />
       <Link
-        className="w-full cursor-pointer overflow-hidden rounded-lg"
+        className="w-full cursor-pointer bg-slate-50 overflow-hidden rounded-lg"
         href={link}
         target="_blank"
       >
@@ -75,7 +75,7 @@ const Project = ({ title, type, img, link, github }) => {
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
     <article
-      className="xs:ml-[-60px] xs:w-[185%] w-full  relative flex items-center justify-center rounded-3xl border border-solid border-black bg-white shadow-2xl p-12 rounded-br-2x1
+      className="xs:ml-[-60px] bg-slate-50 xs:w-[185%] w-full  relative flex items-center justify-center rounded-3xl border border-solid border-black shadow-2xl p-12 rounded-br-2x1
     lg:flex-col lg:p-8 lg:rounded-2xl xs:rounded-br-3xl xs:p-4 "
     >
       <div
@@ -136,7 +136,7 @@ const projects = () => {
         <meta name="discription" content="any-discription"></meta>
       </Head>
       <Transation />
-      <main className="2xl:w-[100%] xxs:ml-[-12px] xs:ml-[-12px]  mb-16 xs:mb-10 flex flex-col items-center justify-center ">
+      <main className="2xl:w-[100%] 2xl:bg-slate-50 xs:bg-white xxs:bg-white xxs:ml-[-12px] xs:ml-[-12px]  mb-16 xs:mb-10 flex flex-col items-center justify-center ">
         <Layout className="pt-16 xs:pt-0 xxs:pt-0 ">
           <AnimatedText
             text="Imagination Trumps Knowledge!"
@@ -146,7 +146,7 @@ const projects = () => {
             className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:flex xs:flex-col
           xs:mt-8 "
           >
-            <div className="col-span-12 xs:mr-[3px] ">
+            <div className="col-span-12 xs:mr-[3px]  ">
               <FeaturedProjects
                 title="Crypto Screener Application"
                 img={project1}
@@ -186,7 +186,7 @@ local currency."
                 type="Featured projects"
               />
             </div>
-            <div className="col-span-12 xs:mr-[3px] ">
+            <div className="col-span-12 xs:mr-[3px] bg-slate-50 ">
               {" "}
               <FeaturedProjects
                 title="React Portfolio Website"

@@ -65,7 +65,7 @@ const Email = () => {
       {alert ? (
         <div
           id="alert-border-3"
-          className="flex xs:p-2 xs:pl-9 mt-6  2xl:mx-[350px] xs:mx-0 xxs:mx-0 text-green-800 border-t-4 border-green-300 bg-green-50 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
+          className="flex xs:p-2  xs:pl-9 mt-6  2xl:mx-[350px] xs:mx-0 xxs:mx-0 text-green-800 border-t-4 border-green-300 bg-green-50 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
           role="alert"
         >
           <div className="2xl:ml-[11vw]  xs:text-lg text-2xl xs:ml-[1vw] 2xl:py-4 font-medium">
