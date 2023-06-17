@@ -57,7 +57,7 @@ export default function Home() {
                 text="Turning Vision Into Reality With Code And Design."
                 className="!text-6xl xxs:!text-lg sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center "
               />
-              <p className="my-10 xxs:px-12 xxs:w-[170%]  xs:my-3 font-medium md:text-sm sm:text-xs   xs:w-[190%]  ">
+              <p className="my-10 xxs:px-12 xxs:w-[170%]   xs:my-3 font-medium md:text-sm sm:text-xs   xs:w-[190%]  ">
                 As a skilled software developer, I am dedicated to turning ideas
                 into innovative web applications. Explore my latest projects and
                 articles, showcasing my expertise in React.js and web
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className=" relative right-[90px] top-[105px]  w-[9%] ">
+        <div className=" relative right-[110px] top-[105px]  w-[9%] ">
           <Image src={LightBulb} className="w-full md:hidden" />
         </div>
       </main>
