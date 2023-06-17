@@ -43,7 +43,7 @@ export default function Home() {
       <main className="flex  items-center w-full min-h-screen lg:flex-col">
         <Layout className="pt-0 md:pt-16 sm:pt-8  ">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className=" xs:mt-12  w-[35%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
+            <div className=" xs:mt-[-2rem] xxs:mt-[-2rem]  w-[35%] h-auto md:w-full xs:w-[180%] lg:w-[50%]  ">
               <Image
                 src={rishi}
                 alt="Rishikesh ghosh"
@@ -64,25 +64,27 @@ export default function Home() {
                 development.
               </p>
               <div
-                className="flex items-center justify-center  mt-2 lg:self-center  
+                className="flex xs:flex xs:items-center xs:justify-center items-center justify-center  xs:mt-[-20px] lg:self-center  
+                xs:mb-[-45px] 2xl:mb-0 2xl:mt-0
               "
               >
                 <Link
                   href="/resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-black text-white p-2.5 px-6 xxs:px-1.5 xxs:py-1.5 rounded-lg text-lg
-                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base xs:absolute xs:left-[76px]
-                  xxs:left-[60px]
-                  xs:mt-12 mr-5 xxs:text-blue-700"
+                  font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black md:p-2 md:px-4 md:text-base 
+                  xxs:text-sm
+                  xs:mt-8 2xl:mt-o 2xl:mb-0  "
                   download={true}
                 >
-                  Resume <LinkArrow className="w-6 ml-1" />
+                  Resume <LinkArrow className="2xl:w-6 2xl:ml-1" />
                 </Link>
                 <CustomLink
                   href="/email"
-                  title="Contact"
-                  className="ml-4 text-lg font-medium capitalize text-black underline md:text-base xs:absolute xs:right-[75px]
-                  xxs:right-[60px]
+                  title="Contact "
+                  className="ml-4 xs:mb-4 text-lg font-medium capitalize text-black underline md:text-base
+                 
+                  xxs:text-sm
                    xs:mt-12"
                 />
               </div>
@@ -90,7 +92,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className=" relative right-[90px] top-[130px]  w-[9%] ">
+        <div className=" relative right-[90px] top-[105px]  w-[9%] ">
           <Image src={LightBulb} className="w-full md:hidden" />
         </div>
       </main>

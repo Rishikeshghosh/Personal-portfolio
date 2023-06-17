@@ -70,23 +70,23 @@ const Navbar = () => {
    */
 
   return (
-    <header className="w-full absolute z-10 px-32 xs:ml-[-10px] py-8 font-bold flex item-center justify-between  lg:px-16 md:px-12 sm:px-8 ">
+    <header className="w-full  z-10 px-32 xs:ml-[-10px] py-8 font-bold flex item-center justify-between  lg:px-16 md:px-12 sm:px-8 ">
       <button
         onClick={handleClick}
-        className="flex-col justify-center hidden items-center lg:flex xs:absolute xs:left-7   "
+        className="flex-col justify-center xxs:block xs:block hidden items-center lg:flex xs:absolute xs:left-7   "
       >
         <span
-          className={`bg-rose-800  dark:bg-white  block translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${
+          className={`bg-rose-800 block   translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${
             open ? "rotate-45 translate-y-[10px]" : "-translate-y-0.5   "
           }`}
         ></span>
         <span
-          className={`bg-rose-900 dark:bg-white block   translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm my-0.5 ${
+          className={`bg-rose-900 block   translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm my-0.5 ${
             open ? "opacity-0" : "opacity-100   "
           }`}
         ></span>
         <span
-          className={`bg-rose-900 dark:bg-white block  translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm translate-y-0.5 ${
+          className={`bg-rose-900 block  translate-all duration-300 ease-in-out h-0.5 w-6 rounded-sm translate-y-0.5 ${
             open ? "-rotate-45 -translate-y-1" : "translate-y-0.5 "
           }`}
         ></span>

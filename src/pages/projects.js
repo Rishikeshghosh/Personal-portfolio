@@ -136,17 +136,17 @@ const projects = () => {
         <meta name="discription" content="any-discription"></meta>
       </Head>
       <Transation />
-      <main className="2xl:w-[100%] mb-16 flex flex-col items-center justify-center ">
-        <Layout className="pt-16 xs:pt-[75px]">
+      <main className="2xl:w-[100%] xxs:ml-[-12px] xs:ml-[-12px]  mb-16 xs:mb-10 flex flex-col items-center justify-center ">
+        <Layout className="pt-16 xs:pt-0 xxs:pt-0 ">
           <AnimatedText
             text="Imagination Trumps Knowledge!"
-            className="xs:mb-16 xs:mt-16 2xl:mb-7 2xl:ml-10 xs:ml-[5px] lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug"
+            className="xs:mb-9 2xl:mt-[-90px] xs:mt-16 2xl:mb-7 2xl:ml-10 xs:ml-[5px] lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug"
           />
           <div
             className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:flex xs:flex-col
-          xs:mt-8"
+          xs:mt-8 "
           >
-            <div className="col-span-12 ">
+            <div className="col-span-12 xs:mr-[3px] ">
               <FeaturedProjects
                 title="Crypto Screener Application"
                 img={project1}
@@ -186,7 +186,7 @@ local currency."
                 type="Featured projects"
               />
             </div>
-            <div className="col-span-12">
+            <div className="col-span-12 xs:mr-[3px] ">
               {" "}
               <FeaturedProjects
                 title="React Portfolio Website"

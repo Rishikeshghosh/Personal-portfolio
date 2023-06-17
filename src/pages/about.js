@@ -42,7 +42,7 @@ const about = () => (
     </Head>
     <Transation />
     <main className="flex   xss:full w-full flex-col items-center justify-center xs:ml-[-17vw] sm:ml-[-5vw] ">
-      <Layout className=" 2xl:mt-[70px] xs:pl[20px] xs:w-[100%] pt-16 xs:pt-16 ">
+      <Layout className="  2xl:mt-[-20px] xs:pl[20px] xs:w-[100%] pt-16 xxs:pt-0 xs:pt-0 ">
         <AnimatedText
           text="Passion Fuels Purpose! "
           className="mb-16 xs:ml-[1px] lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 xs:flex xs:items-center xs:justify-center xs:pl-[120px] xs:!leading-snug xs:!mb-3  "
@@ -78,7 +78,7 @@ const about = () => (
 
           <div
             className="col-span-3 relative w-full h-auto rounded-[1rem] border-2 border-solid border-black bg-white p-10 xs:p-7
-          xl:col-span-4 md:col-span-8 xs:order-1  xs:col-span-10 xs:ml-[-2px] xs:mb-12 xxs:col-span-8 "
+          xl:col-span-4 md:col-span-8 xs:order-1  xs:col-span-10 xs:ml-[-2px] xs:mb-12   xxs:col-span-8 "
           >
             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-black" />
             <Image
