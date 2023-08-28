@@ -52,16 +52,17 @@ export default function Home() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw 50vw"
               />
             </div>
-            <div className="  w-[60%] xxs:w-[150%] flex flex-col items-center justify-center  lg:w-full lg:text-center   ">
+            <div className="    w-[60%] xxs:w-[150%]  flex flex-col items-center justify-center   lg:w-full lg:text-center   ">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
-                className="!text-6xl xxs:!text-lg sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center "
+                className="!text-6xl xxs:!text-lg sm:!text-3xl mb:!text-4xl !text-center xs:!text-2xl !leading-snug xs:flex xs:items-center xs:justify-center  "
               />
               <p className="my-10 xxs:px-12 xxs:w-[170%]   xs:my-3 font-medium md:text-sm sm:text-xs   xs:w-[190%]  ">
-                As a skilled software developer, I am dedicated to turning ideas
-                into innovative web applications. Explore my latest projects and
-                articles, showcasing my expertise in React.js and web
-                development.
+                As a full stack software developer, I am dedicated to turning
+                ideas into innovative web applications. Explore my latest
+                projects and articles, showcasing my expertise in React.js,
+                Node.js, Redux, Mongodb, Express.js, Tailwind.css and web
+                development as a whole.
               </p>
               <div
                 className="flex xs:flex xs:items-center xs:justify-center items-center justify-center  xs:mt-[-20px] lg:self-center  

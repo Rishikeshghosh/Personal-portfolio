@@ -54,25 +54,25 @@ const about = () => (
               About Me
             </h2>
             <p className="font-medium ">
-              Hi, I'm Rishikesh Ghsoh, a web developer and UI/UX designer with a
-              passion for creating beautiful, functional, and user-centered
-              digital experiences. With 2+ years of personal experience in
-              programming. I am always looking for new and innovative ways to
-              bring my clients' visions to life.
+              Hi, I'm Rishikesh Ghsoh, a full stack web developer and curious
+              coder with a passion for creating beautiful, functional, and
+              user-centered digital experiences. With 2+ years of personal
+              experience in programming. I am always looking for new and
+              innovative ways to bring my clients' visions to life.
             </p>
 
             <p className="my-4 font-medium">
-              I believe that design is about more than just making things look
-              pretty – it's about solving problems and creating intuitive,
-              enjoyable experiences for users.
+              I believe that programming asa whole is about more than just
+              making things look pretty and handy – it's about solving problems
+              and creating intuitive, enjoyable experiences for users.
             </p>
 
             <p className="font-medium">
               Whether I'm working on a website, mobile app, or other digital
-              product, I bring my commitment to design excellence and
-              user-centered thinking to every project I work on. I look forward
-              to the opportunity to bring my skills and passion to your next
-              project.
+              product, I bring my commitment to make something worthwhile,
+              useful and user-centered thinking to every project I work on. I
+              look forward to the opportunity to bring my skills and passion to
+              your next project.
             </p>
           </div>
 

@@ -5,12 +5,12 @@ import AnimatedText from "../componenets/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/componenets/Icon";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/react.jpg";
-import project3 from "../../public/images/projects/reactp.jpg";
-import project4 from "../../public/images/projects/reactc.jpg";
-import project5 from "../../public/images/projects/reactd.jpg";
-import project6 from "../../public/images/projects/my.jpg";
+import project1 from "../../public/images/projects/chatApp.png";
+import project2 from "../../public/images/projects/e-commerceApp.jpg";
+import project3 from "../../public/images/projects/chatApp1.png";
+import project4 from "../../public/images/projects/chatApp2.png";
+import project5 from "../../public/images/projects/e-commerceApp1.jpg";
+import project6 from "../../public/images/projects/e-commerceApp2.jpg";
 
 import { motion } from "framer-motion";
 import Transation from "@/componenets/Transation";
@@ -148,27 +148,26 @@ const projects = () => {
           >
             <div className="col-span-12 xs:mr-[3px]  ">
               <FeaturedProjects
-                title="Crypto Screener Application"
+                title="MERN-CHAT-APP"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="https://github.com/Rishikeshghosh"
-                github="https://github.com/Rishikeshghosh"
+                summary=" A fully functional mern chat apllication with radical and secure authentication with JWT and for live chats i've used socket.io and for database i've used mongodb with node.js and express.js. In this mern chat web application
+                you can chat with anyone whether is via single chat or group chat. "
+                link="https://zodex-chat-app.onrender.com"
+                github="https://github.com/Rishikeshghosh/MERN-CHAT-APP"
                 type="Featured projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 xs:w-[160%] xs:ml-[-42px]">
               {" "}
               <Project
-                title="React Portfolio Website"
+                title="JWT authentication in login and signup pages"
                 img={project3}
                 summary="
 A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
 page transitions, cool background effects, unique design and it is mobile responsive.
 "
-                link="https://github.com/Rishikeshghosh"
-                github="https://github.com/Rishikeshghosh"
+                link="https://zodex-chat-app.onrender.com"
+                github="https://github.com/Rishikeshghosh/MERN-CHAT-APP"
                 type="Featured projects"
               />
             </div>
@@ -176,25 +175,25 @@ page transitions, cool background effects, unique design and it is mobile respon
             <div className="col-span-6 sm:col-span-12 xs:w-[160%] xs:ml-[-42px] ">
               {" "}
               <Project
-                title="Proffesional Website In React-Js"
+                title="Live chatting with socket.io"
                 img={project4}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="https://github.com/Rishikeshghosh"
-                github="https://github.com/Rishikeshghosh"
+                link="https://zodex-chat-app.onrender.com"
+                github="https://github.com/Rishikeshghosh/MERN-CHAT-APP"
                 type="Featured projects"
               />
             </div>
             <div className="col-span-12 xs:mr-[3px] bg-slate-50 ">
               {" "}
               <FeaturedProjects
-                title="React Portfolio Website"
+                title="MERN-ECOMMERCE-APP"
                 img={project2}
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive."
-                link="https://github.com/Rishikeshghosh"
-                github="https://github.com/Rishikeshghosh"
+                summary="A fully functional E-commerce website with comprehensive jwt and passport.js authentication along with stripe payment gateway along with nodemailer mail feedback and support
+                directly to your given gmail account and it has also other compelling, handy features on this web application"
+                link="https://rishikesh.onrender.com"
+                github="https://github.com/Rishikeshghosh/MERN-ECOMMERCE"
                 type="Featured projects"
               />
             </div>
@@ -206,21 +205,21 @@ page transitions, cool background effects, unique design and it is mobile respon
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                 local currency."
-                link="https://github.com/Rishikeshghosh"
-                github="https://github.com/Rishikeshghosh"
+                link="https://rishikesh.onrender.com"
+                github="https://github.com/Rishikeshghosh/MERN-ECOMMERCE"
                 type="Featured projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12 xs:col-span-4 xs:w-[160%] xs:ml-[-42px] ">
               {" "}
               <Project
-                title="Form Vakidation In React-Js"
+                title="Fully functonal cart section "
                 img={project6}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="https://github.com/Rishikeshghosh"
-                github="https://github.com/Rishikeshghosh"
+                link="https://rishikesh.onrender.com"
+                github="https://github.com/Rishikeshghosh/MERN-ECOMMERCE"
                 type="Featured projects"
               />
             </div>
