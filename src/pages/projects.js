@@ -11,6 +11,9 @@ import project3 from "../../public/images/projects/chatApp1.png";
 import project4 from "../../public/images/projects/chatApp2.png";
 import project5 from "../../public/images/projects/e-commerceApp1.jpg";
 import project6 from "../../public/images/projects/e-commerceApp2.jpg";
+import project7 from "../../public/images/projects/pic1.png";
+import project8 from "../../public/images/projects/pic2.png";
+import project9 from "../../public/images/projects/pic3.png";
 
 import { motion } from "framer-motion";
 import Transation from "@/componenets/Transation";
@@ -140,7 +143,7 @@ const projects = () => {
         <Layout className="pt-16 xs:pt-0 xxs:pt-0 ">
           <AnimatedText
             text="Imagination Trumps Knowledge!"
-            className="xs:mb-9 2xl:mt-[-90px] xs:mt-16 2xl:mb-7 2xl:ml-10 xs:ml-[5px] lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug"
+            className="xs:mb-9 2xl:mt-[-90px] pb-20 xs:pb-0 xs:mt-16 2xl:mb-7 2xl:ml-10 xs:ml-[5px] lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl xs:flex xs:items-center xs:justify-center  xs:!leading-snug"
           />
           <div
             className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:flex xs:flex-col
@@ -220,6 +223,45 @@ It shows detail regarding almost all the cryptocurrency. You can easily convert 
 local currency."
                 link="https://rishikesh.onrender.com"
                 github="https://github.com/Rishikeshghosh/MERN-ECOMMERCE"
+                type="Featured projects"
+              />
+            </div>
+            <div className="col-span-12 xs:mr-[3px]  ">
+              <FeaturedProjects
+                title="MERN-SOCIAL-MEDIA-APP"
+                img={project7}
+                summary="This project is a MERN (MongoDB, Express.js, React, Node.js) based social media application that allows \
+                users to connect and share their thoughts, images, and engage in social interactions. "
+                link="https://6508183b30d1f54c098a9e15--symphonious-froyo-a0d3b5.netlify.app"
+                github="https://github.com/Rishikeshghosh/MERN-SOCIAL-MEDIA-APP"
+                type="Featured projects"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12 xs:w-[160%] xs:ml-[-42px]">
+              {" "}
+              <Project
+                title="It's well responsive in every device "
+                img={project8}
+                summary="
+A professional portfolio website using React JS, famer-motion, and Styled-components. It has smooth 
+page transitions, cool background effects, unique design and it is mobile responsive.
+"
+                link="https://6508183b30d1f54c098a9e15--symphonious-froyo-a0d3b5.netlify.app"
+                github="https://github.com/Rishikeshghosh/MERN-SOCIAL-MEDIA-APP"
+                type="Featured projects"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12 xs:w-[160%] xs:ml-[-42px] ">
+              {" "}
+              <Project
+                title="JWT authentication in login and signup pages"
+                img={project9}
+                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+local currency."
+                link="https://6508183b30d1f54c098a9e15--symphonious-froyo-a0d3b5.netlify.app"
+                github="https://github.com/Rishikeshghosh/MERN-SOCIAL-MEDIA-APP"
                 type="Featured projects"
               />
             </div>
