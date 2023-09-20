@@ -253,7 +253,6 @@ page transitions, cool background effects, unique design and it is mobile respon
             </div>
 
             <div className="col-span-6 sm:col-span-12 xs:w-[160%] xs:ml-[-42px] ">
-              {" "}
               <Project
                 title="JWT authentication in login and signup pages"
                 img={project9}
