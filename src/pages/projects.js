@@ -232,7 +232,7 @@ local currency."
                 img={project7}
                 summary="This project is a MERN (MongoDB, Express.js, React, Node.js) based social media application that allows \
                 users to connect and share their thoughts, images, and engage in social interactions. "
-                link="https://6508183b30d1f54c098a9e15--symphonious-froyo-a0d3b5.netlify.app"
+                link="https://652d5263d153d524cf151a85--bright-begonia-2130a5.netlify.app"
                 github="https://github.com/Rishikeshghosh/MERN-SOCIAL-MEDIA-APP"
                 type="Featured projects"
               />
@@ -246,7 +246,7 @@ local currency."
 A professional portfolio website using React JS, famer-motion, and Styled-components. It has smooth 
 page transitions, cool background effects, unique design and it is mobile responsive.
 "
-                link="https://6508183b30d1f54c098a9e15--symphonious-froyo-a0d3b5.netlify.app"
+                link="https://652d5263d153d524cf151a85--bright-begonia-2130a5.netlify.app"
                 github="https://github.com/Rishikeshghosh/MERN-SOCIAL-MEDIA-APP"
                 type="Featured projects"
               />
@@ -259,7 +259,7 @@ page transitions, cool background effects, unique design and it is mobile respon
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="https://6508183b30d1f54c098a9e15--symphonious-froyo-a0d3b5.netlify.app"
+                link="https://652d5263d153d524cf151a85--bright-begonia-2130a5.netlify.app"
                 github="https://github.com/Rishikeshghosh/MERN-SOCIAL-MEDIA-APP"
                 type="Featured projects"
               />
